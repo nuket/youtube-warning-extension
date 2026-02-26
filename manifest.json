@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Warning",
+  "version": "1.0",
+  "description": "Shows a warning before accessing YouTube",
+  "permissions": [
+    "storage",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "*://*.youtube.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["warning.html"],
+      "matches": ["*://*.youtube.com/*"]
+    }
+  ]
+}
