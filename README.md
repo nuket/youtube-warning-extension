@@ -2,6 +2,8 @@
 
 A Chrome extension that shows a warning page before you visit YouTube, helping you be more mindful about your time.
 
+![Screenshot of interstitial page](thumbnail.png)
+
 ## Features
 
 - Intercepts all attempts to visit YouTube
